@@ -42,6 +42,10 @@ const overlay = {
       op += op * 0.1;
     }, 10);
   },
+
+  remove: () => {
+    element.remove();
+  },
 };
 
 export default overlay;
