@@ -14,5 +14,9 @@
   "staticFiles": {
     "staticPath": "public",
     "watcherGlob": "**"
-}
+  },
+  "prettier": {},
+  "dependencies": {
+    "three": "^0.119.1"
+  }
 }
