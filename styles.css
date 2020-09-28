@@ -1,41 +1,41 @@
 body {
-    margin: 0;
-    overflow: hidden;
-    background-color: #000000;
-  }
+  margin: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
 
-  @font-face {
-    font-family: "Circular";
-    src: url("./public/fonts/CircularStd-Book.otf");
-    font-weight: 900;
-  }
-  
-  #overlay {
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    text-align: center;
-    opacity: 1;
-  }
-  #loadstatus{
-    z-index: 1;
-    font-family: "Circular";
-    color: #ffffff;
-    position: relative;
-    width: 100%;
-    top: 20px;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    text-align: center;
-  }
-  #three-canvas {
-    z-index: 0;
-    position: absolute;
-    display: block;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    }
+@font-face {
+  font-family: "Circular";
+  src: url("./public/fonts/CircularStd-Book.otf");
+  font-weight: 900;
+}
+
+#overlay {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  opacity: 1;
+}
+#loadstatus {
+  z-index: 1;
+  font-family: "Circular";
+  color: #ffffff;
+  position: relative;
+  width: 100%;
+  top: 20px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+#three-canvas {
+  z-index: 0;
+  position: absolute;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}

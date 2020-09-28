@@ -107,7 +107,6 @@ const run = () => {
 };
 
 setupThree();
-console.log(load.setLoadCallback);
 load.onLoadCallback = start;
 
 export {
